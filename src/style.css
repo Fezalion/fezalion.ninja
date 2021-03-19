@@ -45,15 +45,15 @@
  
  /* Custom CSS
   * --------------------------------------- */
- body{
-     font-family: 'Lato', Calibri, Arial, sans-serif;
+ body, *{
+     font-family: 'Roboto';
      color: #f2f2f2;
  }
  h1{
-     font-size: 6em;
+     font-size: 12em;
  }
  p{
-     font-size: 2em;
+     font-size: 6em;
  }
  .section{
      text-align: center;
@@ -63,6 +63,7 @@
      width: 50%;
      margin: 0 auto;
      font-size: 1.5em;
+     font-weight: 600;
  }
  
  /* Overwriting fullPage.js tooltip color
@@ -162,7 +163,7 @@
       #corner_toggle_container .links a {
         padding: 0 10px;
         font-size: 1.5em;
-        color: #FAD8D6;
+        color: rgba(255,255,255,0.5);
       }
       #corner_toggle_container .links a:hover {
         color: #CD5334;
@@ -247,9 +248,9 @@
       .btn .hl-line {          
         stroke: #fff;
         fill: #201c29;
-        stroke-dasharray: 40 480;
-        stroke-dashoffset: 40;
-        transition: all 1.5s ease-in-out;
+        stroke-dasharray: 240 480;
+        stroke-dashoffset: 240;
+        transition: stroke 1.5s ease-in-out;
       }
       .btn:hover .bg-line {
         fill: #4F95DA;
