@@ -63,41 +63,6 @@
      width: 50%;
      margin: 0 auto;
      font-size: 1.5em;
- } 
- /* Section 1
-  * --------------------------------------- */
- #section1 h1{
-     color: #444;
- }
- #section1 p{
-     color: #333;
-     color: rgba(0,0,0,0.3);
- }
- #section1 img{
-     margin: 20px 0;
-     opacity: 0.7;
- }
- 
- /* Section 2
-  * --------------------------------------- */
- #section2 h1,
- #section2 p{
-     z-index: 3;
- }
- #section2 p{
-     opacity: 0.8;
- } 
- 
- /* Section 3
-  * --------------------------------------- */
- #section3 p{
-     color: #757575;
- }
-
- /* Section 4
-  * --------------------------------------- */
- #section4 p{
-     opacity: 0.6;
  }
  
  /* Overwriting fullPage.js tooltip color
@@ -115,10 +80,6 @@
 		color: #333;
 		color: rgba(0,0,0,0.3);
 	}
-	#section1 img{
-		margin: 20px 0;
-		opacity: 0.7;
-	}
 
 	/* Section 2
 	 * --------------------------------------- */
@@ -127,18 +88,18 @@
 		z-index: 3;
 	}
 	#section2 p{
-		opacity: 0.8;
+		opacity: 1;
 	}
 
 	/* Section 3
 	 * --------------------------------------- */
 	#section3 p{
-		color: #757575;
+		color: #000;
 	}
 	/* Section 4
 	 * --------------------------------------- */
 	#section4 p{
-		opacity: 0.6;
+		opacity: 1;
 	}
 
 	/* Overwriting fullPage.js tooltip color
