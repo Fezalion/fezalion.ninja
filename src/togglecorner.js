@@ -1,3 +1,4 @@
+//yoinked from https://codepen.io/jochemstoel/pen/ExjPBmZ
 $(document).ready(function () {
     var corner_toggle = $("#corner_toggle"),
       corner_toggle_container = $("#corner_toggle #corner_toggle_container"),
