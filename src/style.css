@@ -154,13 +154,22 @@
       #corner_toggle_container .links {
         margin: 0 auto;
         margin-left: -20px;
-        text-align: center;
+        text-align: right;
         position: fixed;
-        width: 100%;
-        bottom: 30%;
+        bottom:125px;
+        left: 44%;
+        width: 250px;
         transform: rotate(-45deg);
       }
-      #corner_toggle_container .links a {
+      #corner_toggle_container .links ul {
+        position: relative;
+        top:15px;
+        left:10px;
+      }
+      #corner_toggle_container .links ul li {
+        margin-top: 15px;        
+      }
+      #corner_toggle_container .links ul li a {
         padding: 0 10px;
         font-size: 1.5em;
         color: rgba(255,255,255,0.5);
@@ -263,5 +272,5 @@
       #btn.active2 {
           position: relative;         
           transition: all .5s ease-in-out;
-          transform: rotate(-45deg) translate(-60px, -120px);
+          transform: rotate(-45deg) translate(-25px, -110px);
       }
