@@ -5,7 +5,7 @@ $(document).ready(function() {
         direction: 'horizontal',
         verticalCentered: true,
         sectionsColor: ['#fc9867', '#A9DC76', '#AB9DF2', '#FFDFD3'],
-        scrollingSpeed: 1000,
+        scrollingSpeed: 300,
         easing: 'swing',
         loopBottom: true,
         loopTop: true,

@@ -1,7 +1,4 @@
 $(document).ready(function () {
-
-    $("#myimg").attr("src", get_gravatar('raincloud@hotmail.com.tr', 80));
-
     var corner_toggle = $("#corner_toggle"),
       corner_toggle_container = $("#corner_toggle #corner_toggle_container"),
       corner_class = corner_toggle.attr("class"),

@@ -17,6 +17,7 @@
         <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
     </head>
 
+    <!-- <img id="myimg" width="90" height="90" class="img-circle" src="" alt="Fezalion"/> -->
     <body>        
         <nav class="top-right" id="corner_toggle">
             <div id="corner_toggle_container">              
@@ -27,7 +28,20 @@
                     <li data-menuanchor="section3"><a href="#section3">Third section</a></li>
                     <li data-menuanchor="section4"><a href="#section4">Fourth section</a></li>
                 </ul>
-                </div><a class="corner_toggle_ctrl top"><img id="myimg" width="90" height="90" class="img-circle" src="" alt="Fezalion"/></a>
+                </div>
+            <a class="corner_toggle_ctrl top">
+                <div class="btn">
+                    <svg width="90px" height="90px" viewBox="-3 -3 96 96" style="border-radius: 50%; border:3px solid rgba(255,255,255,0.5);" >
+                        <defs>
+                            <clipPath id="circleView">
+                                <circle cx="45" cy="45" r="45" fill="#FFFFFF" />            
+                            </clipPath>
+                          </defs>
+                          <circle cx="45" cy="45" r="45" stroke="#fff" stroke-width="12" class="hl-line" style="z-index: 31;"/>
+                          <image class="hl-line" width="90" height="90" style="z-index: 32;" xlink:href="http://www.gravatar.com/avatar/6e46519cb31128addf667c8a176dde64.jpg?s=90" clip-path="url(#circleView)" />
+                    </svg>                    
+                </div>
+            </a>
             </div>
           </nav>
 

@@ -185,14 +185,7 @@
       }
       .corner_toggle_ctrl i {
         cursor: pointer;
-      }
-      #myimg {
-        transform: rotate(-45deg);
-        border:2px solid rgba(255,255,255,0.5)
-      }
-      #myimg:hover {
-          cursor: pointer;
-      }
+      }      
       /* Custom fixes */
     #pp-nav{
         margin: 0 auto !important;
@@ -238,4 +231,30 @@
     #socials ion-icon {
         font-size: 64px;
         color: #2E282A;
+      }
+
+
+      #myimg {       
+        cursor: pointer;
+        border-radius: 50%;
+      }
+
+      .btn {
+        transition: .5s;
+        border-radius: 50%;       
+        transform: rotate(-45deg);  
+      }
+      .btn .hl-line {          
+        stroke: #fff;
+        fill: #201c29;
+        stroke-dasharray: 40 480;
+        stroke-dashoffset: 40;
+        transition: all 1.5s ease-in-out;
+      }
+      .btn:hover .bg-line {
+        fill: #4F95DA;
+      }
+      .btn:hover .hl-line {
+        stroke-dashoffset: -480;
+        fill: #1a1721;
       }
