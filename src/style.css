@@ -258,3 +258,9 @@
         stroke-dashoffset: -480;
         fill: #1a1721;
       }
+
+      #btn.active2 {
+          position: relative;         
+          transition: all .5s ease-in-out;
+          transform: rotate(-45deg) translate(-60px, -120px);
+      }

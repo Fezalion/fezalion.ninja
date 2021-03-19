@@ -7,7 +7,8 @@ $(document).ready(function () {
       init_vert = "-325",
       init_horiz = "-1075",
       increased_vert = parseInt(init_vert) * 0.5,
-      increased_horiz = parseInt(init_horiz) * 0.83;
+      increased_horiz = parseInt(init_horiz) * 0.83,
+      btnitself = $("#btn");
   
     switch (corner_class) {
       case "top-left":
@@ -105,11 +106,13 @@ $(document).ready(function () {
           corner_toggle.css(vert_pos, init_vert + "px");
           corner_toggle.css(horiz_pos, init_horiz + "px");
           corner_toggle.toggleClass("active");
+          btnitself.toggleClass("active2");
           break;
         case "out":
           corner_toggle.css(vert_pos, increased_vert + "px");
           corner_toggle.css(horiz_pos, increased_horiz + "px");
-          corner_toggle.toggleClass("active");
+          corner_toggle.toggleClass("active");          
+          btnitself.toggleClass("active2");
           break;
       }
     };
