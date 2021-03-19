@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    $("#myimg").attr("src", get_gravatar('raincloud@hotmail.com.tr', 100));
+    $("#myimg").attr("src", get_gravatar('raincloud@hotmail.com.tr', 80));
 
     var corner_toggle = $("#corner_toggle"),
       corner_toggle_container = $("#corner_toggle #corner_toggle_container"),
@@ -9,8 +9,8 @@ $(document).ready(function () {
       horiz_pos,
       init_vert = "-325",
       init_horiz = "-1075",
-      increased_vert = parseInt(init_vert) * 0.8,
-      increased_horiz = parseInt(init_horiz) * 0.92;
+      increased_vert = parseInt(init_vert) * 0.5,
+      increased_horiz = parseInt(init_horiz) * 0.83;
   
     switch (corner_class) {
       case "top-left":

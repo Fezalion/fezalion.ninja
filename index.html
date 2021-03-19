@@ -14,20 +14,38 @@
         <script type="text/javascript" src="src/jquery.pagepiling.min.js"></script>
         <script type="text/javascript" src="src/pagePile.js"></script>
         <script type="text/javascript" src="src/togglecorner.js"></script>
-        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
     </head>
 
     <body>        
-        <nav class="top-left" id="corner_toggle">
+        <nav class="top-right" id="corner_toggle">
             <div id="corner_toggle_container">              
-              <div class="links"><a href="mailto:kerimgileren@gmail.com"><i class="ion-email"></i></a><a href="https://github.com/Fezalion" target="_blank"><ion-icon name="logo-github"></ion-icon></a></div><a class="corner_toggle_ctrl top"><img id="myimg" width="90" height="90" class="img-circle" src="" alt="Fezalion"/></a>
+              <div class="links">
+                <ul id="myMenu">
+                    <li data-menuanchor="section1" class="active"><a href="#section1">First section</a></li>
+                    <li data-menuanchor="section2"><a href="#section2">Second section</a></li>
+                    <li data-menuanchor="section3"><a href="#section3">Third section</a></li>
+                    <li data-menuanchor="section4"><a href="#section4">Fourth section</a></li>
+                </ul>
+                </div><a class="corner_toggle_ctrl top"><img id="myimg" width="90" height="90" class="img-circle" src="" alt="Fezalion"/></a>
             </div>
           </nav>
 
+        <div id="socials">
+            <ul>
+                <li><a href="https://github.com/Fezalion"><ion-icon name="logo-github"></ion-icon></a></li>
+                <li><a href="https://github.com/Fezalion"><ion-icon name="logo-github"></ion-icon></a></li>
+                <li><a href="https://github.com/Fezalion"><ion-icon name="logo-github"></ion-icon></a></li>
+                <li><a href="https://github.com/Fezalion"><ion-icon name="logo-github"></ion-icon></a></li>
+            </ul>
+        </div>
+
         <div id="pagepiling">
             <div class="section" id="section1">
-                <h1>Hello!</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam nemo tempore vel animi voluptatibus, rerum omnis quaerat. Voluptatum qui laboriosam, iusto placeat dolorem voluptatem, necessitatibus neque nulla ipsum saepe libero!</p>
+                <div class="intro">
+                    <h1>Hello!</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam nemo tempore vel animi voluptatibus, rerum omnis quaerat. Voluptatum qui laboriosam, iusto placeat dolorem voluptatem, necessitatibus neque nulla ipsum saepe libero!</p>
+                </div>
             </div>
             <div class="section" id="section2">
                 <div class="intro">

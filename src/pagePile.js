@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$('#pagepiling').pagepiling({
-	    anchors: ['page1', 'page2', 'page3', 'page4'],
+	    anchors: ['section1', 'section2', 'section3', 'section4'],
         menu: '#Menu',
         direction: 'horizontal',
         verticalCentered: true,
