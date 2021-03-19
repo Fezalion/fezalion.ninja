@@ -79,7 +79,7 @@
         position: absolute;
         top: 0; left: 0;
         width: 100%; height: 100%;
-        background-image: url("https://images.wallpaperscraft.com/image/flight_balloon_sky_86980_1920x1080.jpg");
+        background-image: url("../assets/anime_girl_wings_flying_black_15561_1920x1080.jpg");
         filter:grayscale(70%) blur(4px);
     }
     .module-inside {        
@@ -281,7 +281,7 @@
         fill: #201c29;
         stroke-dasharray: 240 480;
         stroke-dashoffset: 240;
-        transition: stroke 1.5s ease-in-out;
+        transition: all 1.5s ease-in-out;
       }
       .btn:hover .bg-line {
         fill: #4F95DA;
