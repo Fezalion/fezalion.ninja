@@ -358,10 +358,7 @@
 		width: 450px;
 		margin: 20px auto;
 		text-align: left;
-    }
-    
-
-
+    }  
     nav#corner_toggle {
         -webkit-transition: all 0.15s ease-in-out;
         -moz-transition: all 0.15s ease-in-out;
@@ -372,14 +369,14 @@
         background-color: #2E282A;
         height: 500px;
         width: 2000px;
-        top: -375px;
+        top: -325px;
       }
       nav#corner_toggle.top-left {
-        left: -1125px;
+        left: -1075px;
         transform: rotate(-45deg);
       }
       nav#corner_toggle.top-right {
-        right: -1125px;
+        right: -1075px;
         transform: rotate(45deg);
       }
       #corner_toggle_container {
@@ -401,10 +398,11 @@
       }
       #corner_toggle_container .links {
         margin: 0 auto;
+        margin-left: -20px;
         text-align: center;
         position: fixed;
         width: 100%;
-        bottom: 20%;
+        bottom: 30%;
       }
       #corner_toggle_container .links a {
         padding: 0 10px;
@@ -433,7 +431,10 @@
       .corner_toggle_ctrl i {
         cursor: pointer;
       }
-
+      #myimg {
+        transform: rotate(45deg);
+        border:2px solid rgba(255,255,255,0.5)
+      }
       /* Custom fixes */
     #pp-nav{
         margin: 0 auto !important;
@@ -445,25 +446,4 @@
     }
     #pp-nav li, .pp-slidesNav li{
         display:inline-block;
-    }
-
-    .divide:after {
-        content:"";
-        position: absolute;
-        z-index: -1;
-        top: 0;
-        bottom: 0;
-        left: 50%;
-        border-left: 2px dotted #ff0000;
-        transform: translate(-50%);
-    }
-    
-    .divide {
-        margin: 10px auto;
-        width: 100%;
-        height: 100%;
-        border: 1px solid #333;
-        position:fixed;
-        text-align:center;
-        z-index: 9999;
     }
