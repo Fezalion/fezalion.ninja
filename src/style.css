@@ -266,13 +266,10 @@
         position: relative;
         left: 65px;
         top: -50px;
-        transition: left .15s linear;
         transition: opacity 0.15s linear;
     }
     #socials ul li:hover span {
         opacity: 1;
-        left: 70px;
-        transition: left .15s linear;
         transition: opacity 0.15s linear;
         cursor: pointer;
     }
