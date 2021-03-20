@@ -107,10 +107,11 @@
 	 * --------------------------------------- */
 	#section2 h1,
 	#section2 p{
-		z-index: 3;
+    z-index: 3;
+    color: #000;
 	}
 	#section2 p{
-		opacity: 1;
+    opacity: 1;
 	}
 
 	/* Section 3
