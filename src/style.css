@@ -282,7 +282,7 @@
         stroke-dasharray: 240 480;
         stroke-dashoffset: 240;
         transition: all 1.5s ease-in-out;
-        animation: animate2 9s linear infinite alternate;
+        animation: animate 9s linear infinite alternate;
       }
       .btn:hover .bg-line {
         fill: #4F95DA;
