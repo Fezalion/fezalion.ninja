@@ -124,6 +124,11 @@
     width: 50%;
     margin:0 auto 0 auto;
     padding:20px;
+    border:1px solid #333;
+    border-radius: 25px;
+    background-color:rgba(0, 0, 0, 0.1);
+    -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(24px);
   }
   #section2 h1,
 	#section2 p{
@@ -164,7 +169,9 @@
         transition: all 0.25s ease-in-out;
         z-index: 1000;
         position: fixed;
-        background-color: #2E282A;
+        background-color:rgba(0, 0, 0, 0.5);
+        -webkit-backdrop-filter: blur(24px);
+        backdrop-filter: blur(24px);
         height: 500px;
         width: 2000px;
         top: -325px;
@@ -218,7 +225,7 @@
         color: rgba(255,255,255,0.5);
       }
       #corner_toggle_container .links a:hover {
-        color: #CD5334;
+        color:  rgba(255,255,255,0.8);
         text-decoration: none;
       }
       .corner_toggle_ctrl {
