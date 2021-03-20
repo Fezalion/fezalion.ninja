@@ -282,6 +282,7 @@
         stroke-dasharray: 240 480;
         stroke-dashoffset: 240;
         transition: all 1.5s ease-in-out;
+        animation: animate2 9s linear infinite alternate;
       }
       .btn:hover .bg-line {
         fill: #4F95DA;
@@ -289,6 +290,15 @@
       .btn:hover .hl-line {
         stroke-dashoffset: -480;
         fill: #1a1721;
+      }
+
+      @keyframes animate {
+        from { 
+          stroke-dashoffset: 240; 
+        }
+        to {  
+          stroke-dashoffset: 980; 
+        }
       }
 
       #btn.active2 {
