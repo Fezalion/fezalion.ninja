@@ -4,7 +4,7 @@ $(document).ready(function() {
         menu: '#Menu',
         direction: 'horizontal',
         verticalCentered: true,
-        sectionsColor: ['#000', '#A9DC76', '#AB9DF2', '#FFDFD3'],
+        sectionsColor: ['#000', '#000', '#AB9DF2', '#FFDFD3'],
         scrollingSpeed: 300,
         easing: 'swing',
         loopBottom: true,
