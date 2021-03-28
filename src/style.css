@@ -79,6 +79,7 @@
       height: 100%;
       overflow: hidden;
       -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
     }
     #section1::before {
         content: "";
@@ -111,6 +112,7 @@
     height: 100%;
     overflow: hidden;
     -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
    }
   #section2::before {
     content:"";
