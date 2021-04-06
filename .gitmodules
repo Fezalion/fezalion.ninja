@@ -1,0 +1,3 @@
+[submodule "i"]
+	path = i
+	url = https://github.com/TannerReynolds/ShareX-Upload-Server.git
