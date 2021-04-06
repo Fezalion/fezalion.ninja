@@ -4,7 +4,7 @@ return [
     /* This sets the url where your gallery page will be accessible
      * If you set this to https://www.example.com/ your gallery page will be accessible there.
      */
-    'base_url' => 'https://fezalion.ninja/gallery',
+    'base_url' => 'https://fezalion.ninja/i',
 
     /* This is a secure key that only you should know, an added layer of security for the image upload
      * You can just set this to some really long random string, since you don't need to remember it.
