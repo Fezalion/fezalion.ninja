@@ -32,7 +32,7 @@ return [
     'zip_storage_folder' => 'backups/',
 
     /* This is a list of IPs that can access the gallery page (Leave empty to disable IP blocking) */
-    'allowed_ips' => ['127.0.0.1', '::1'],
+    'allowed_ips' => ['127.0.0.1', '::1', '24.133.237.20'],
 
     /* This enables or disables password protection for your gallery page. If this is off, only IP verification will be used */
     'enable_password_login' => false,
