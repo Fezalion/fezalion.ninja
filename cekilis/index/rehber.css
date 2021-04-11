@@ -1,0 +1,21 @@
+﻿body{text-align: center;background-color:#fff;background-image:url(arkaplan.jpg);width:"100%"; height: "100%"; background-attachment:fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;margin-top:0px;font-family:Tahoma;font-size:12px;color:#e0d7e1;}
+a{font-family:Tahoma;font-size:1px;color:#fff;text-decoration:none}
+.orta{position:relative;padding-right:50px;margin:auto;}
+.ortayedek{position:absolute;top:0%;left:28%}
+
+.youtube {
+    width:560px;
+    height:315px;
+    margin:0 auto 0 auto;
+    position:relative;
+    clear:both;
+    border:12px ridge #eab309;    
+    justify-content: center;
+    margin-top:calc(50vh - 315px);
+}
+
+.youtube2 {
+    background-image:url(unnamed.png);
+    background-attachment: fixed;
+    background-position: center;
+}
