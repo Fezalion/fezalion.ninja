@@ -15,8 +15,7 @@
                     {
                         "items": [
                             { "type": "title", "value": "Mert onedio survey" },
-                            { "type": "p", "value": "lets gooooo." },
-                            { "type": "button", "label": "Next", "program": {"next_page": true} }
+                            { "type": "button", "label": "Başla", "program": {"next_page": true} }
                         ]
                     },
                     {
@@ -25,7 +24,7 @@
                             { "type": "name", "save_key": "name", "required": true, "autofocus": true }  
                         ],
                         "submit" : { 
-                            "label": "Next", 
+                            "label": "Sonraki", 
                             "input_submit": true,
                             "program": [ {"next_page": true} ] 
                         } 
@@ -156,7 +155,7 @@
                             { "type": "radio", "save_key": "q9", "autofocus": true,
                                 "options" : [
                                     {"id" : "q9a1", "label": "Adriana Limayla 1 yıl boyunca beraber olmak."},
-                                    {"id" : "q9a2", "label": "Mertin bi kızla konusurken burnundan sümügünün akması ama yanında pecete olmaması utancından yerin dibine girmesi aynı zamanda osurarak etraftaki potansiyel kızlarıda ürkütmesi ve altına sıcması."}
+                                    {"id" : "q9a2", "label": "Mertin bi kızla konusurken burnundan sümügünün akmasını ama yanında pecete olmaması utancından yerin dibine girmesi aynı zamanda osurarak etraftaki potansiyel kızlarıda ürkütmesi ve altına sıcmasını izlemek."}
                                 ] 
                             }
                         ],
@@ -215,12 +214,11 @@
                     },
                     {
                         "items": [
-                            { "type": "question", "value": "Son sorumuz... Dikkatli seçin...\n\nMert 35'Lik vodkanın 5 mL'sini içmiş bulunmakta.\n" },
+                            { "type": "question", "value": "" },
                             { "type": "radio", "save_key": "q13", "autofocus": true,
                                 "options" : [
-                                    {"id" : "q13a1", "label": "100 tl kaybedip merti oradan geçen bir dilenciye bırakmak."},
-                                    {"id" : "q13a2", "label": "200 tl kazanıp merte kendin bakman gerekmesi."},
-                                    {"id" : "q13a3", "label": "RUN FOR YOUR LIFE."}
+                                    {"id" : "q13a1", "label": "1 milyon tl kazanıcaksın ancak bu parayı sen teslim almadan önce mert iddia ya basıcak."},
+                                    {"id" : "q13a2", "label": "Bu paranın bi kısmı ile sana her zaman kullanman gereken dandik bir oyun pc si alacak."}
                                 ] 
                             }
                         ],
@@ -231,7 +229,23 @@
                     },
                     {
                         "items": [
-                            { "type": "subtitle", "value": "Cevaplarınız\n\n{{q1.label}}\n{{q2.label}}\n{{q3.label}}\n{{q4.label}}\n{{q5.label}}\n{{q6.label}}\n{{q7.label}}\n{{q8.label}}\n{{q9.label}}\n{{q10.label}}\n{{q11.label}}\n{{q12.label}}\n{{q13.label}}\n"}
+                            { "type": "question", "value": "Son sorumuz... Dikkatli seçin...\n\nMert 35'Lik vodkanın 5 mL'sini içmiş bulunmakta.\n" },
+                            { "type": "radio", "save_key": "q14", "autofocus": true,
+                                "options" : [
+                                    {"id" : "q14a1", "label": "100 tl kaybedip merti oradan geçen bir dilenciye bırakmak."},
+                                    {"id" : "q14a2", "label": "200 tl kazanıp merte kendin bakman gerekmesi."},
+                                    {"id" : "q14a3", "label": "RUN FOR YOUR LIFE."}
+                                ] 
+                            }
+                        ],
+                        "submit" : { 
+                            "label": "Sonraki",
+                            "program": [ {"next_page": true} ] 
+                        } 
+                    },
+                    {
+                        "items": [
+                            { "type": "subtitle", "value": "Cevaplarınız\n\n{{q1.label}}\n{{q2.label}}\n{{q3.label}}\n{{q4.label}}\n{{q5.label}}\n{{q6.label}}\n{{q7.label}}\n{{q8.label}}\n{{q9.label}}\n{{q10.label}}\n{{q11.label}}\n{{q12.label}}\n{{q13.label}}\n{{q14.label}}\n"}
                         ]
                     }
                 ]
