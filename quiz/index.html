@@ -9,19 +9,60 @@
     <script src="https://evaluatly.com/dist/evaluatly-1.0.2.js"></script>
     <script>
         Evaluatly.loadVar({
-            "hash": "example/setup",     
+            "hash": "example/form-send",     
             "story": {
                 "pages": [
                     {
                         "items": [
-                            { "type": "title", "value": "My first story" },
-                            { "type": "p", "value": "This is an example." },
+                            { "type": "title", "value": "Mert onedio survey" },
+                            { "type": "p", "value": "lets gooooo." },
                             { "type": "button", "label": "Next", "program": {"next_page": true} }
                         ]
                     },
                     {
                         "items": [
-                            { "type": "title", "value": "Hello 👋" }
+                            { "type": "question", "value": "Adınız ?" },
+                            { "type": "name", "save_key": "name", "required": true, "autofocus": true }  
+                        ],
+                        "submit" : { 
+                            "label": "Next", 
+                            "input_submit": true,
+                            "program": [ {"next_page": true} ] 
+                        } 
+                    },
+                    {
+                        "items": [
+                            { "type": "question", "value": "Selam, {{name}} 👋, ilk sorumuz ile başlayalım." },
+                            { "type": "radio", "save_key": "q1", "autofocus": true,
+                                "options" : [
+                                    {"id" : "q1a1", "label": "Olası bir Threesome'ın kacması"},
+                                    {"id" : "q1a2", "label": "Merte 1. Milyon Dolar verilmesi"}
+                                ] 
+                            }
+                        ],
+                        "submit" : { 
+                            "label": "Sonraki",
+                            "program": [ {"next_page": true} ] 
+                        } 
+                    },
+                    {
+                        "items": [
+                            { "type": "question", "value": "" },
+                            { "type": "radio", "save_key": "q2", "autofocus": true,
+                                "options" : [
+                                    {"id" : "q2a1", "label": "Restaurant sahibi olacaksın ve gordon ramsay kitchen nigtmares deki gibi gelip agzına sıcacak"},
+                                    {"id" : "q2a2", "label": "Merte 1. Milyon Dolar verilmesi"}
+                                ] 
+                            }
+                        ],
+                        "submit" : { 
+                            "label": "Sonraki",
+                            "program": [ {"next_page": true} ] 
+                        } 
+                    },
+                    {
+                        "items": [
+                            { "type": "title", "value": "Hello 👋, cevaplarınız {{q1.label}} {{q2.label}}" }
                         ]
                     }
                 ]
@@ -29,7 +70,7 @@
             "theme": {
                 "page": {
                     "font-family": "google:Roboto",
-                    "font-size": "20px",
+                    "font-size": "18px",
                     "background-color": "#f5f1ed"
                 },
                 "content": {
